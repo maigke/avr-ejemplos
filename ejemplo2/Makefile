@@ -23,7 +23,7 @@ INCLUDEPATHS += -I ./lib
 CFLAGS = -ffunction-sections -fpermissive -std=c++11
 LDFLAGS = -Wl,-gc-sections
 
-COMPILE = avr-g++ $(CFLAGS) $(LDFLAGS) -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE) $(INCLUDEPATHS)
+COMPILE = avr-g++ $(CFLAGS) $(LDFLAGS) -Wall -O2 -DF_CPU=$(CLOCK) -mmcu=$(DEVICE) $(INCLUDEPATHS)
 
 # symbolic targets:
 all: $(PROJECT_NAME).hex

@@ -1,1 +1,5 @@
 forks
+*.o
+*.eep
+*.elf
+*.hex
