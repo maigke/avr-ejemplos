@@ -11,4 +11,4 @@ A continuación se muestra el circuito:
  
 ### circuito 
  
-![Circuito contador](/img/circuito.svg)
+![Circuito contador](img/circuito.svg)
