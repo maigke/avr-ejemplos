@@ -21,7 +21,7 @@ ABOS_PORT     = /dev/ttyUSB0
 ```
 2. En esta sección se muestra como debe incluirse los códigos objetos que se generan cuando se compila el Makefile y éstos puedan ser ligados al código de main. 
 
-```Makefile
+```
 OBJECT_FILES = main.o
 OBJECT_FILES += ./src/lcd.o
 OBJECT_FILES += ./src/clk.o

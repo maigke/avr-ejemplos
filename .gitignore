@@ -4,3 +4,4 @@ forks
 *.elf
 *.hex
 *.ps
+*.backup
