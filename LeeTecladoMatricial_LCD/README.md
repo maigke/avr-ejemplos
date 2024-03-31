@@ -13,15 +13,15 @@ Este código presenta la programación de la lectura de un teclado matricial, po
 En este apartado se muestran algunas consideraciones para el makefile
 
 1. En este punto se muestra la pequeña configuración para agregar el usbasp como programador.
-'''
+´´´
 AVRDUDE_PROG  = -c usbasp -P usb
 ABOS_PORT     = /dev/ttyUSB0
-'''
+´´´
 
 2. En esta sección se muestra como debe incluirse los códigos objetos que se generan cuando se compila el Makefile y éstos puedan ser ligados al código de main. 
 
-'''
+´´´
 OBJECT_FILES = main.o
 OBJECT_FILES += ./src/lcd.o
 OBJECT_FILES += ./src/clk.o
-'''
+´´
