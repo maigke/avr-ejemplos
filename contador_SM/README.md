@@ -19,3 +19,5 @@ El circuito sensor se construye a partir del decodificador de tonos LM567
 
 En la siguiente figura se muestra una tabla con las funciones de las terminales de dicho circuito integrado.
 ![lm567 pinout](img/lm567.webp)
+
+Los circuitos se construyeron con ![xcircuit](http://opencircuitdesign.com/xcircuit/)
