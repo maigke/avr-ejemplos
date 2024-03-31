@@ -21,3 +21,6 @@ En la siguiente figura se muestra una tabla con las funciones de las terminales 
 ![lm567 pinout](img/lm567.webp)
 
 Los circuitos se construyeron con ![xcircuit](http://opencircuitdesign.com/xcircuit/)
+<a href="http://opencircuitdesign.com/xcircuit/" target="_blank">Xcircuit</a>
+
+
