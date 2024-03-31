@@ -5,3 +5,6 @@ forks
 *.hex
 *.ps
 *.backup
+*.simu
+*.vst
+*.gch

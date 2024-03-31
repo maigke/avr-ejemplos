@@ -1,0 +1,48 @@
+<circuit type="simulide_0.1" speed="1000000" noLinAcc="5" noLinStep="10" reactStep="50" animate="0">
+ 
+Probe-18: 
+<item Show_id="false" labelrot="45" labely="-16" vflip="1" itemtype="Probe" valLabRot="45" hflip="1" objectName="Probe-18" y="-388" valLabelx="16" PlotterCh="0" Show_volt="true" rotation="-45" id="a" x="-180" labelx="16" valLabely="0"/>
+ 
+Probe-16: 
+<item Show_id="false" labelrot="45" labely="-16" vflip="1" itemtype="Probe" valLabRot="45" hflip="1" objectName="Probe-16" y="-380" valLabelx="16" PlotterCh="0" Show_volt="true" rotation="-45" id="b" x="-204" labelx="16" valLabely="0"/>
+ 
+Probe-9: 
+<item Show_id="false" labelrot="45" labely="-16" vflip="1" itemtype="Probe" valLabRot="45" hflip="1" objectName="Probe-9" y="-380" valLabelx="16" PlotterCh="0" Show_volt="true" rotation="-45" id="en" x="-236" labelx="16" valLabely="0"/>
+ 
+Fixed Voltage-7: 
+<item labelrot="0" x="-444" y="-316" Show_id="false" valLabely="8" objectName="Fixed Voltage-7" valLabelx="-16" rotation="0" hflip="1" Show_Volt="true" labelx="-64" labely="-24" vflip="1" itemtype="Fixed Voltage" valLabRot="0" Unit=" V" Voltage="5" id="Sentido"/>
+ 
+Fixed Voltage-5: 
+<item labelrot="0" x="-476" y="-348" Show_id="false" valLabely="8" objectName="Fixed Voltage-5" valLabelx="-16" rotation="0" hflip="1" Show_Volt="true" labelx="-64" labely="-24" vflip="1" itemtype="Fixed Voltage" valLabRot="0" Unit=" V" Voltage="5" id="Stop"/>
+ 
+Fixed Voltage-3: 
+<item labelrot="0" x="-444" y="-364" Show_id="false" valLabely="8" objectName="Fixed Voltage-3" valLabelx="-16" rotation="0" hflip="1" Show_Volt="true" labelx="-64" labely="-24" vflip="1" itemtype="Fixed Voltage" valLabRot="0" Unit=" V" Voltage="5" id="Start"/>
+ 
+attiny2313-1: 
+<item labelrot="0" x="-332" y="-380" Logic_Symbol="false" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" Ser_Port="false" Show_id="true" valLabely="0" objectName="attiny2313-1" valLabelx="0" rotation="0" hflip="1" labelx="0" labely="-20" vflip="1" itemtype="AVR" valLabRot="0" Ser_Monitor="false" id="attiny2313-1" Program="Practica5.hex" Mhz="1"/>
+ 
+Connector-4: 
+<item startpinid="Fixed Voltage-3-outnod" labelrot="0" x="-428" y="-364" Show_id="false" valLabely="0" objectName="Connector-4" pointList="-428,-364,-340,-364" valLabelx="0" rotation="0" hflip="1" labelx="-16" endpinid="attiny2313-1-PD0" labely="-24" vflip="1" itemtype="Connector" valLabRot="0" enodeid="enode-4" id="Connector-4"/>
+ 
+Connector-6: 
+<item startpinid="Fixed Voltage-5-outnod" labelrot="0" x="-460" y="-348" Show_id="false" valLabely="0" objectName="Connector-6" pointList="-460,-348,-380,-348,-380,-356,-340,-356" valLabelx="0" rotation="0" hflip="1" labelx="-16" endpinid="attiny2313-1-PD1" labely="-24" vflip="1" itemtype="Connector" valLabRot="0" enodeid="enode-6" id="Connector-6"/>
+ 
+Connector-8: 
+<item startpinid="Fixed Voltage-7-outnod" labelrot="0" x="-428" y="-316" Show_id="false" valLabely="0" objectName="Connector-8" pointList="-428,-316,-404,-316,-404,-332,-340,-332" valLabelx="0" rotation="0" hflip="1" labelx="-16" endpinid="attiny2313-1-PD2" labely="-24" vflip="1" itemtype="Connector" valLabRot="0" enodeid="enode-8" id="Connector-8"/>
+ 
+Connector-15: 
+<item startpinid="Probe-9-inpin" labelrot="0" x="-252" y="-364" Show_id="false" valLabely="0" objectName="Connector-15" pointList="-252,-364,-252,-324,-292,-324" valLabelx="0" rotation="0" hflip="1" labelx="-16" endpinid="attiny2313-1-PB2" labely="-24" vflip="1" itemtype="Connector" valLabRot="0" enodeid="enode-15" id="Connector-15"/>
+ 
+Connector-19: 
+<item startpinid="Probe-16-inpin" labelrot="0" x="-220" y="-364" Show_id="false" valLabely="0" objectName="Connector-19" pointList="-220,-364,-220,-316,-292,-316" valLabelx="0" rotation="0" hflip="1" labelx="-16" endpinid="attiny2313-1-PB1" labely="-24" vflip="1" itemtype="Connector" valLabRot="0" enodeid="enode-19" id="Connector-19"/>
+ 
+Connector-20: 
+<item startpinid="attiny2313-1-PB0" labelrot="0" x="-292" y="-308" Show_id="false" valLabely="0" objectName="Connector-20" pointList="-292,-308,-196,-308,-196,-372" valLabelx="0" rotation="0" hflip="1" labelx="-16" endpinid="Probe-18-inpin" labely="-24" vflip="1" itemtype="Connector" valLabRot="0" enodeid="enode-20" id="Connector-20"/>
+ 
+PlotterWidget: 
+<item inputMethodHints="0" windowModality="0" maximumHeight="200" pos="" minimized="false" windowOpacity="1" isActiveWindow="true" minimumWidth="200" windowIconText="" minimumSize="" sizePolicy="" objectName="PlotterWidget" frameSize="" normalGeometry="" frameGeometry="" minimumSizeHint="" Scale="1" sizeHint="" mouseTracking="false" geometry="" rect="" maximumSize="" MaxVolt="500" minimumHeight="200" maximumWidth="1000" y="0" childrenRect="" palette="" windowModified="false" focusPolicy="0" width="200" visible="false" cursor="" height="200" toolTipDuration="-1" tabletTracking="false" font="Cantarell,10,-1,5,50,0,0,0,0,0" size="" acceptDrops="false" windowTitle="" toolTip="" locale="" accessibleName="" layoutDirection="0" MinVolt="-500" Tracks="1" x="0" updatesEnabled="true" accessibleDescription="" modal="false" windowFilePath="" childrenRegion="" contextMenuPolicy="1" baseSize="" statusTip="" styleSheet="" itemtype="Plotter" sizeIncrement="" focus="false" whatsThis="" windowIcon="" fullScreen="false" autoFillBackground="false" enabled="true" maximized="false"/>
+ 
+SerialPortWidget: 
+<item inputMethodHints="0" windowModality="0" maximumHeight="170" pos="" minimized="false" windowOpacity="1" isActiveWindow="true" minimumWidth="0" windowIconText="" minimumSize="" sizePolicy="" objectName="SerialPortWidget" SettingsProp=",0,3,0,0,0" frameSize="" normalGeometry="" frameGeometry="" minimumSizeHint="" sizeHint="" mouseTracking="false" geometry="" rect="" maximumSize="" minimumHeight="0" maximumWidth="450" y="0" childrenRect="" palette="" windowModified="false" focusPolicy="0" width="313" visible="false" cursor="" height="141" toolTipDuration="-1" tabletTracking="false" font="Cantarell,10,-1,5,50,0,0,0,0,0" size="" acceptDrops="false" windowTitle="Settings" toolTip="" locale="" accessibleName="" layoutDirection="0" x="0" updatesEnabled="true" accessibleDescription="" modal="false" windowFilePath="" childrenRegion="" contextMenuPolicy="1" baseSize="" statusTip="" styleSheet="" itemtype="SerialPort" sizeIncrement="" focus="false" whatsThis="" windowIcon="" fullScreen="false" autoFillBackground="false" enabled="true" maximized="false"/>
+ 
+</circuit>

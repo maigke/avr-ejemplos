@@ -1,0 +1,70 @@
+<!DOCTYPE SimutronQt4>
+<circuit type="simu">
+ 
+AVR MCU-1: 
+<item Show_id="false" objectName="AVR MCU-1" labely="-108" rotation="0" firmware_elf="/home/miguel/Documents/AVR/U2/Practica6/Practica6.elf" fcpu_HZ="1000000" y="-44" serial_connections="" MCU_model="attiny2313" labelx="-40" labelrot="0" itemtype="AVR MCU" id="AVR MCU-1" x="-76" UART_list="uart0"/>
+ 
+VCD Probe-2: 
+<item Show_id="false" objectName="VCD Probe-2" labely="-24" Show_volt="false" rotation="-45" y="-148" Analogue_signal="false" labelx="8" labelrot="45" itemtype="VCD Probe" id="VCD Probe-2" x="140">
+  <label objectName="voltage" Y="3" rotation="45" X="14"/>
+ </item>
+ 
+VCD Probe-3: 
+<item Show_id="false" objectName="VCD Probe-3" labely="-24" Show_volt="false" rotation="-45" y="-148" Analogue_signal="false" labelx="8" labelrot="45" itemtype="VCD Probe" id="VCD Probe-3" x="164">
+  <label objectName="voltage" Y="3" rotation="45" X="14"/>
+ </item>
+ 
+VCD Probe-4: 
+<item Show_id="false" objectName="VCD Probe-4" labely="-24" Show_volt="false" rotation="-45" y="-148" Analogue_signal="false" labelx="8" labelrot="45" itemtype="VCD Probe" id="VCD Probe-4" x="20">
+  <label objectName="voltage" Y="3" rotation="45" X="14"/>
+ </item>
+ 
+VCD Probe-5: 
+<item Show_id="false" objectName="VCD Probe-5" labely="-24" Show_volt="false" rotation="-45" y="-148" Analogue_signal="false" labelx="8" labelrot="45" itemtype="VCD Probe" id="VCD Probe-5" x="44">
+  <label objectName="voltage" Y="3" rotation="45" X="14"/>
+ </item>
+ 
+VCD Probe-6: 
+<item Show_id="false" objectName="VCD Probe-6" labely="-24" Show_volt="false" rotation="-45" y="-148" Analogue_signal="false" labelx="8" labelrot="45" itemtype="VCD Probe" id="VCD Probe-6" x="68">
+  <label objectName="voltage" Y="3" rotation="45" X="14"/>
+ </item>
+ 
+VCD Probe-7: 
+<item Show_id="false" objectName="VCD Probe-7" labely="-24" Show_volt="false" rotation="-45" y="-148" Analogue_signal="false" labelx="8" labelrot="45" itemtype="VCD Probe" id="VCD Probe-7" x="92">
+  <label objectName="voltage" Y="3" rotation="45" X="14"/>
+ </item>
+ 
+VCD Trace File-15: 
+<item Show_id="false" objectName="VCD Trace File-15" labely="-32" rotation="0" Overwrite_file="false" Period="100000" y="20" labelx="-8" labelrot="0" itemtype="VCD Trace File" id="VCD Trace File-15" x="132" VCD_file="" GTKWave_svefile=""/>
+ 
+Logic S.-15: 
+<item Show_id="false" objectName="Logic S.-15" labely="-8" rotation="0" y="-28" labelx="-56" labelrot="0" itemtype="Logic S." id="Logic S.-15" x="-180"/>
+ 
+Logic S.-17: 
+<item Show_id="false" objectName="Logic S.-17" labely="-8" rotation="0" y="4" labelx="-56" labelrot="0" itemtype="Logic S." id="Logic S.-17" x="-180"/>
+ 
+Connector-9: 
+<item Show_id="false" endpininv="false" objectName="Connector-9" labely="-32" rotation="0" pointlist="4,-132,4,-132,4,-116,-28,-116" y="-132" endpinid="AVR MCU-1_Innod-8" labelx="-8" labelrot="0" itemtype="Connector" startpinid="VCD Probe-4inpin" id="Connector-9" x="4" startpininv="false"/>
+ 
+Connector-10: 
+<item Show_id="false" endpininv="false" objectName="Connector-10" labely="-32" rotation="0" pointlist="-28,-108,-28,-108,28,-108,28,-132" y="-108" endpinid="VCD Probe-5inpin" labelx="-8" labelrot="0" itemtype="Connector" startpinid="AVR MCU-1_Innod-9" id="Connector-10" x="-28" startpininv="false"/>
+ 
+Connector-11: 
+<item Show_id="false" endpininv="false" objectName="Connector-11" labely="-32" rotation="0" pointlist="-28,-100,-28,-100,52,-100,52,-132" y="-100" endpinid="VCD Probe-6inpin" labelx="-8" labelrot="0" itemtype="Connector" startpinid="AVR MCU-1_Innod-10" id="Connector-11" x="-28" startpininv="false"/>
+ 
+Connector-12: 
+<item Show_id="false" endpininv="false" objectName="Connector-12" labely="-32" rotation="0" pointlist="-28,-92,-28,-92,76,-92,76,-132" y="-92" endpinid="VCD Probe-7inpin" labelx="-8" labelrot="0" itemtype="Connector" startpinid="AVR MCU-1_Innod-11" id="Connector-12" x="-28" startpininv="false"/>
+ 
+Connector-13: 
+<item Show_id="false" endpininv="false" objectName="Connector-13" labely="-32" rotation="0" pointlist="124,-132,124,-132,124,-84,-28,-84" y="-132" endpinid="AVR MCU-1_Innod-12" labelx="-8" labelrot="0" itemtype="Connector" startpinid="VCD Probe-2inpin" id="Connector-13" x="124" startpininv="false"/>
+ 
+Connector-14: 
+<item Show_id="false" endpininv="false" objectName="Connector-14" labely="-32" rotation="0" pointlist="-28,-76,-28,-76,148,-76,148,-132" y="-76" endpinid="VCD Probe-3inpin" labelx="-8" labelrot="0" itemtype="Connector" startpinid="AVR MCU-1_Innod-13" id="Connector-14" x="-28" startpininv="false"/>
+ 
+Connector-16: 
+<item Show_id="false" endpininv="false" objectName="Connector-16" labely="-32" rotation="0" pointlist="-164,-28,-124,-28" y="-28" endpinid="AVR MCU-1_Innod-18" labelx="-8" labelrot="0" itemtype="Connector" startpinid="Logic S.-15outnod" id="Connector-16" x="-164" startpininv="false"/>
+ 
+Connector-18: 
+<item Show_id="false" endpininv="false" objectName="Connector-18" labely="-32" rotation="0" pointlist="-164,4,-124,4" y="4" endpinid="AVR MCU-1_Innod-22" labelx="-8" labelrot="0" itemtype="Connector" startpinid="Logic S.-17outnod" id="Connector-18" x="-164" startpininv="false"/>
+ 
+</circuit>
