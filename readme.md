@@ -51,3 +51,29 @@ A continuación se propone una lista de videos representativos de los programas 
 <td>
 <a href="https://youtu.be/eR08i4Oubzg">
 <img src="http://i3.ytimg.com/vi/eR08i4Oubzg/maxresdefault.jpg">
+</a>
+</td>
+<td>
+<a href="https://youtu.be/hbMFS9Xo7kI">
+<img src="http://i3.ytimg.com/vi/hbMFS9Xo7kI/maxresdefault.jpg">
+</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://youtu.be/Ttwy6BC36NI">
+<img src="http://i3.ytimg.com/vi/Ttwy6BC36NI/maxresdefault.jpg">
+</a>
+</td>
+<td>
+<a href="https://youtu.be/Ttwy6BC36NI">
+<img src="http://i3.ytimg.com/vi/Ttwy6BC36NI/maxresdefault.jpg">
+</a>
+</td>
+<td>
+<a href="https://youtu.be/SKB39CX9BPA">
+<img src="http://i3.ytimg.com/vi/SKB39CX9BPA/maxresdefault.jpg">
+</a>
+</td>
+</tr>
+</table>
