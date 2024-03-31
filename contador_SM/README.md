@@ -12,3 +12,10 @@ A continuación se muestra el circuito:
 ### circuito 
  
 ![Circuito contador](img/circuito.svg)
+
+El circuito sensor se construye a partir del decodificador de tonos LM567
+
+![circuito sensor](img/Sensor.svg)
+
+En la siguiente figura se muestra una tabla con las funciones de las terminales de dicho circuito integrado.
+![lm567 pinout](img/lm567.webp)

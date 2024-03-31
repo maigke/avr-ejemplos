@@ -3,3 +3,4 @@ forks
 *.eep
 *.elf
 *.hex
+*.ps
