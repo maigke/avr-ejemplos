@@ -1,15 +1,3 @@
-/******************************************************
- * main.c
- *
- * Program Name:  TemporizadorExposiciones
- *         Date:  2024-04-01
- *       Author:  YOUR_NAME
- *      License:  YOUR_LICENSE
- *
- * Description:
- *  This is my program description..
- * 
- *****************************************************/
 /*
  * main.c
  *
@@ -17,7 +5,7 @@
  *  Author: mmont
  */ 
 
-#include <xc.h>
+//#include <xc.h>
 #include <avr/io.h>
 #define F_CPU 8000000UL
 #include <util/delay.h>
@@ -265,7 +253,7 @@ int main(void)
 		    case EJECUCION_TIEMPO_PREGUNTAS:
 			minuto = 0;
 			contador_tiempo_exposicion = 0;
-		    iniciar_temporizador(tiempo_preguntas); // Iniciar temporizador de preguntas
+		    iniciar_temporizador(); // Iniciar temporizador de preguntas
 			PORTB &= ~(1 << LED_EXPOSICION);  //Apagar led de Exposicion
 			PORTD |= (1 << LED_SEMAFORO_VERDE);  //Encender led Semaforo Verde
 		    PORTD &= ~(1 << LED_SEMAFORO_AZUL);

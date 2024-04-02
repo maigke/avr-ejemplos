@@ -163,7 +163,7 @@ EXT = 0xFF
 * Dado que será usado el TMR0 en modo normal (8 bits), suponiendo N = 1024
 * Calcula el valor de cada desbordamiento (OVF)
 
-**Sustición**
+**Sustitución**
 $$ tick = \frac{256 \cdot N}{F_{CPU}}=\frac{256 \cdot 1024}{4 \times 10^6}=65.536ms$$
 
 * Para obtener el tiempo de un minuto se tiene que:
