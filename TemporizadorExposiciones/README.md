@@ -154,7 +154,7 @@ Dado que la naturaleza del proyecto es que sea realizada una temporización y qu
 Se usa en el microcontrolador ATtiny2313 un cristal de cuarzo de 4MHz, para ello los fuse bits se colocan de la siguiente manera:
 
 ```
-LOW = 0x0DC
+LOW = 0xDC
 HIGH = 0xDF
 EXT = 0xFF
 ```

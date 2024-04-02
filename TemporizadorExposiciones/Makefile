@@ -4,9 +4,9 @@
 #############################################
 
 PROJECT_NAME  = TemporizadorExposiciones
-DEVICE        = atmega128
-CLOCK         = 16000000
-FUSES         = -U hfuse:w:0xD9:m -U lfuse:w:0xFF:m -U efuse:w:0xFF:m
+DEVICE        = attiny2313
+CLOCK         = 4000000
+FUSES         = -U hfuse:w:0xDF:m -U lfuse:w:0xDC:m -U efuse:w:0xFF:m
 AVRDUDE_PROG  = -c usbtiny -P usb
 ABOS_PORT     = /dev/ttyUSB0
 ABOS_BAUDRATE = 38400
