@@ -1,0 +1,17 @@
+digraph {
+	graph [rankdir=LR]
+	ini [shape=point]
+	A
+	ini -> A
+	B
+	C
+	D [shape=doublecircle]
+	A -> B [label=1]
+	A -> A [label=0]
+	B -> C [label=1]
+	B -> B [label=0]
+	C -> D [label=1]
+	C -> C [label=0]
+	D -> C [label=1]
+	D -> D [label=0]
+}
