@@ -164,12 +164,15 @@ EXT = 0xFF
 * Calcula el valor de cada desbordamiento (OVF)
 
 **Sustitución**
-$$ tick = \frac{256 \cdot N}{F_{CPU}}=\frac{256 \cdot 1024}{4 \times 10^6}=65.536ms$$
+
+$$ tick = \frac{256 \cdot N}{F_{CPU}}=\frac{256 \cdot 1024}{4 \times 10^6 MHz}=65.536ms$$
 
 * Para obtener el tiempo de un minuto se tiene que:
 
 $$ 1 min => \frac{60 s}{65.536 ms}=915.53$$
+
 Lo cual no entrega un valor entero, entonces, debe considerarse un valor 915 o 916
+
 $$ x = \frac{60}{\left[ \frac{ 256 \cdot N}{F_{CPU}} \right]} =F_{CPU} \cdot \frac{60}{256 \cdot N}$$
  
 
